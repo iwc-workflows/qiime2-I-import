@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2024-05-02T17:44:12.613258",
+            "datePublished": "2024-05-27T12:41:08.866362",
             "hasPart": [
                 {
                     "@id": "QIIME2-Ia-multiplexed-data-single-end.ga"
@@ -58,19 +58,19 @@
             },
             "mentions": [
                 {
-                    "@id": "#test_QIIME2-Id import demultiplexed data paired end_1"
+                    "@id": "#test_Ib-import-multiplexed-pe_1"
                 },
                 {
-                    "@id": "#test_QIIME2-Ib import multiplexed data paired end_1"
+                    "@id": "#test_Id-import-demultiplexed-pe_1"
                 },
                 {
-                    "@id": "#test_QIIME2-Ia import multiplexed data single end_1"
+                    "@id": "#test_Ic-import-demultiplexed-se_1"
                 },
                 {
-                    "@id": "#test_QIIME2-Ic import demultiplexed data single end_1"
+                    "@id": "#test_Ia-import-multiplexed-se_1"
                 }
             ],
-            "name": "qiime2-I-import/QIIME2-Ia import multiplexed data single end"
+            "name": "qiime2-I-import/Ia-import-multiplexed-se"
         },
         {
             "@id": "ro-crate-metadata.json",
@@ -94,15 +94,15 @@
                     "@id": "#0009-0008-1496-1677"
                 },
                 {
-                    "@id": "#047c04fa-7097-4ada-86e7-23c5da7b76e6"
+                    "@id": "#b908dc9f-670a-4bbd-8125-1900b4e6bfd5"
                 }
             ],
-            "name": "qiime2-I-import/QIIME2-Ia import multiplexed data single end",
+            "name": "qiime2-I-import/Ia-import-multiplexed-se",
             "programmingLanguage": {
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/qiime2-I-import",
-            "version": "0.1"
+            "version": "0.2"
         },
         {
             "@id": "#galaxy",
@@ -122,7 +122,7 @@
             "name": "Debjyoti Ghosh"
         },
         {
-            "@id": "#047c04fa-7097-4ada-86e7-23c5da7b76e6",
+            "@id": "#b908dc9f-670a-4bbd-8125-1900b4e6bfd5",
             "@type": "Organization",
             "name": "Helmholtz-Zentrum f\u00fcr Umweltforschung - UFZ"
         },
@@ -131,25 +131,25 @@
             "@type": "File"
         },
         {
-            "@id": "#test_QIIME2-Ia import multiplexed data single end_1",
+            "@id": "#test_Ia-import-multiplexed-se_1",
             "@type": "TestSuite",
             "definition": {
                 "@id": "QIIME2-Ia-multiplexed-data-single-end-tests.yml"
             },
             "instance": [
                 {
-                    "@id": "#test_QIIME2-Ia import multiplexed data single end_1_1"
+                    "@id": "#test_Ia-import-multiplexed-se_1_1"
                 }
             ],
             "mainEntity": {
                 "@id": "QIIME2-Ia-multiplexed-data-single-end.ga"
             },
-            "name": "test_QIIME2-Ia import multiplexed data single end_1"
+            "name": "test_Ia-import-multiplexed-se_1"
         },
         {
-            "@id": "#test_QIIME2-Ia import multiplexed data single end_1_1",
+            "@id": "#test_Ia-import-multiplexed-se_1_1",
             "@type": "TestInstance",
-            "name": "test_QIIME2-Ia import multiplexed data single end_1_1",
+            "name": "test_Ia-import-multiplexed-se_1_1",
             "resource": "repos/iwc-workflows/qiime2-I-import/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
@@ -173,7 +173,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.22"
+            "engineVersion": ">=0.75.23"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
@@ -195,41 +195,41 @@
                     "@id": "#0009-0008-1496-1677"
                 },
                 {
-                    "@id": "#b8e1f680-a0c0-4e93-8bd6-637ecc680022"
+                    "@id": "#e9d2adf5-63ad-4725-b968-9215c7537fde"
                 }
             ],
-            "name": "qiime2-I-import/QIIME2-Ib import multiplexed data paired end",
+            "name": "qiime2-I-import/Ib-import-multiplexed-pe",
             "programmingLanguage": {
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/qiime2-I-import",
-            "version": "0.1"
+            "version": "0.2"
         },
         {
-            "@id": "#b8e1f680-a0c0-4e93-8bd6-637ecc680022",
+            "@id": "#e9d2adf5-63ad-4725-b968-9215c7537fde",
             "@type": "Organization",
             "name": "Helmholtz-Zentrum f\u00fcr Umweltforschung - UFZ"
         },
         {
-            "@id": "#test_QIIME2-Ib import multiplexed data paired end_1",
+            "@id": "#test_Ib-import-multiplexed-pe_1",
             "@type": "TestSuite",
             "definition": {
                 "@id": "QIIME2-Ib-multiplexed-data-paired-end-tests.yml"
             },
             "instance": [
                 {
-                    "@id": "#test_QIIME2-Ib import multiplexed data paired end_1_1"
+                    "@id": "#test_Ib-import-multiplexed-pe_1_1"
                 }
             ],
             "mainEntity": {
                 "@id": "QIIME2-Ib-multiplexed-data-paired-end.ga"
             },
-            "name": "test_QIIME2-Ib import multiplexed data paired end_1"
+            "name": "test_Ib-import-multiplexed-pe_1"
         },
         {
-            "@id": "#test_QIIME2-Ib import multiplexed data paired end_1_1",
+            "@id": "#test_Ib-import-multiplexed-pe_1_1",
             "@type": "TestInstance",
-            "name": "test_QIIME2-Ib import multiplexed data paired end_1_1",
+            "name": "test_Ib-import-multiplexed-pe_1_1",
             "resource": "repos/iwc-workflows/qiime2-I-import/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
@@ -245,7 +245,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.22"
+            "engineVersion": ">=0.75.23"
         },
         {
             "@id": "QIIME2-Ic-demultiplexed-data-single-end.ga",
@@ -259,41 +259,41 @@
                     "@id": "#0009-0008-1496-1677"
                 },
                 {
-                    "@id": "#07aebf0d-5c95-4706-8cd1-621b863d644b"
+                    "@id": "#5757f60b-5254-468f-8c3b-7b16e1ddc5a3"
                 }
             ],
-            "name": "qiime2-I-import/QIIME2-Ic import demultiplexed data single end",
+            "name": "qiime2-I-import/Ic-import-demultiplexed-se",
             "programmingLanguage": {
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/qiime2-I-import",
-            "version": "0.1"
+            "version": "0.2"
         },
         {
-            "@id": "#07aebf0d-5c95-4706-8cd1-621b863d644b",
+            "@id": "#5757f60b-5254-468f-8c3b-7b16e1ddc5a3",
             "@type": "Organization",
             "name": "Helmholtz-Zentrum f\u00fcr Umweltforschung - UFZ"
         },
         {
-            "@id": "#test_QIIME2-Ic import demultiplexed data single end_1",
+            "@id": "#test_Ic-import-demultiplexed-se_1",
             "@type": "TestSuite",
             "definition": {
                 "@id": "QIIME2-Ic-demultiplexed-data-single-end-tests.yml"
             },
             "instance": [
                 {
-                    "@id": "#test_QIIME2-Ic import demultiplexed data single end_1_1"
+                    "@id": "#test_Ic-import-demultiplexed-se_1_1"
                 }
             ],
             "mainEntity": {
                 "@id": "QIIME2-Ic-demultiplexed-data-single-end.ga"
             },
-            "name": "test_QIIME2-Ic import demultiplexed data single end_1"
+            "name": "test_Ic-import-demultiplexed-se_1"
         },
         {
-            "@id": "#test_QIIME2-Ic import demultiplexed data single end_1_1",
+            "@id": "#test_Ic-import-demultiplexed-se_1_1",
             "@type": "TestInstance",
-            "name": "test_QIIME2-Ic import demultiplexed data single end_1_1",
+            "name": "test_Ic-import-demultiplexed-se_1_1",
             "resource": "repos/iwc-workflows/qiime2-I-import/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
@@ -309,7 +309,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.22"
+            "engineVersion": ">=0.75.23"
         },
         {
             "@id": "QIIME2-Id-demultiplexed-data-paired-end.ga",
@@ -323,41 +323,41 @@
                     "@id": "#0009-0008-1496-1677"
                 },
                 {
-                    "@id": "#db2b065f-13a0-4eac-ac03-b83fc866e5eb"
+                    "@id": "#f0b6baea-4953-4d2a-b6b0-ac2a5e14f6c4"
                 }
             ],
-            "name": "qiime2-I-import/QIIME2-Id import demultiplexed data paired end",
+            "name": "qiime2-I-import/Id-import-demultiplexed-pe",
             "programmingLanguage": {
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/qiime2-I-import",
-            "version": "0.1"
+            "version": "0.2"
         },
         {
-            "@id": "#db2b065f-13a0-4eac-ac03-b83fc866e5eb",
+            "@id": "#f0b6baea-4953-4d2a-b6b0-ac2a5e14f6c4",
             "@type": "Organization",
             "name": "Helmholtz-Zentrum f\u00fcr Umweltforschung - UFZ"
         },
         {
-            "@id": "#test_QIIME2-Id import demultiplexed data paired end_1",
+            "@id": "#test_Id-import-demultiplexed-pe_1",
             "@type": "TestSuite",
             "definition": {
                 "@id": "QIIME2-Id-demultiplexed-data-paired-end-tests.yml"
             },
             "instance": [
                 {
-                    "@id": "#test_QIIME2-Id import demultiplexed data paired end_1_1"
+                    "@id": "#test_Id-import-demultiplexed-pe_1_1"
                 }
             ],
             "mainEntity": {
                 "@id": "QIIME2-Id-demultiplexed-data-paired-end.ga"
             },
-            "name": "test_QIIME2-Id import demultiplexed data paired end_1"
+            "name": "test_Id-import-demultiplexed-pe_1"
         },
         {
-            "@id": "#test_QIIME2-Id import demultiplexed data paired end_1_1",
+            "@id": "#test_Id-import-demultiplexed-pe_1_1",
             "@type": "TestInstance",
-            "name": "test_QIIME2-Id import demultiplexed data paired end_1_1",
+            "name": "test_Id-import-demultiplexed-pe_1_1",
             "resource": "repos/iwc-workflows/qiime2-I-import/actions/workflows/wftest.yml",
             "runsOn": {
                 "@id": "https://w3id.org/ro/terms/test#GithubService"
@@ -373,7 +373,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.22"
+            "engineVersion": ">=0.75.23"
         }
     ]
 }
