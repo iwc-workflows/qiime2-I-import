@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2024-05-27T12:41:08.866362",
+            "datePublished": "2024-11-26T08:27:56.998750",
             "hasPart": [
                 {
                     "@id": "QIIME2-Ia-multiplexed-data-single-end.ga"
@@ -58,16 +58,16 @@
             },
             "mentions": [
                 {
-                    "@id": "#test_Ib-import-multiplexed-pe_1"
-                },
-                {
-                    "@id": "#test_Id-import-demultiplexed-pe_1"
+                    "@id": "#test_Ia-import-multiplexed-se_1"
                 },
                 {
                     "@id": "#test_Ic-import-demultiplexed-se_1"
                 },
                 {
-                    "@id": "#test_Ia-import-multiplexed-se_1"
+                    "@id": "#test_Ib-import-multiplexed-pe_1"
+                },
+                {
+                    "@id": "#test_Id-import-demultiplexed-pe_1"
                 }
             ],
             "name": "qiime2-I-import/Ia-import-multiplexed-se"
@@ -94,7 +94,7 @@
                     "@id": "#0009-0008-1496-1677"
                 },
                 {
-                    "@id": "#b908dc9f-670a-4bbd-8125-1900b4e6bfd5"
+                    "@id": "#51b3456a-70f3-4c80-9577-8eebd1658728"
                 }
             ],
             "name": "qiime2-I-import/Ia-import-multiplexed-se",
@@ -102,7 +102,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/qiime2-I-import",
-            "version": "0.2"
+            "version": "0.3"
         },
         {
             "@id": "#galaxy",
@@ -122,7 +122,7 @@
             "name": "Debjyoti Ghosh"
         },
         {
-            "@id": "#b908dc9f-670a-4bbd-8125-1900b4e6bfd5",
+            "@id": "#51b3456a-70f3-4c80-9577-8eebd1658728",
             "@type": "Organization",
             "name": "Helmholtz-Zentrum f\u00fcr Umweltforschung - UFZ"
         },
@@ -173,7 +173,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.23"
+            "engineVersion": ">=0.75.26"
         },
         {
             "@id": "https://w3id.org/ro/terms/test#PlanemoEngine",
@@ -195,7 +195,7 @@
                     "@id": "#0009-0008-1496-1677"
                 },
                 {
-                    "@id": "#e9d2adf5-63ad-4725-b968-9215c7537fde"
+                    "@id": "#92088609-1b58-4430-94fb-eb5d8a8276d4"
                 }
             ],
             "name": "qiime2-I-import/Ib-import-multiplexed-pe",
@@ -203,10 +203,10 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/qiime2-I-import",
-            "version": "0.2"
+            "version": "0.3"
         },
         {
-            "@id": "#e9d2adf5-63ad-4725-b968-9215c7537fde",
+            "@id": "#92088609-1b58-4430-94fb-eb5d8a8276d4",
             "@type": "Organization",
             "name": "Helmholtz-Zentrum f\u00fcr Umweltforschung - UFZ"
         },
@@ -245,7 +245,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.23"
+            "engineVersion": ">=0.75.26"
         },
         {
             "@id": "QIIME2-Ic-demultiplexed-data-single-end.ga",
@@ -259,7 +259,7 @@
                     "@id": "#0009-0008-1496-1677"
                 },
                 {
-                    "@id": "#5757f60b-5254-468f-8c3b-7b16e1ddc5a3"
+                    "@id": "#e82698d0-e0b8-4158-9e19-0009fa8445e9"
                 }
             ],
             "name": "qiime2-I-import/Ic-import-demultiplexed-se",
@@ -267,10 +267,10 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/qiime2-I-import",
-            "version": "0.2"
+            "version": "0.3"
         },
         {
-            "@id": "#5757f60b-5254-468f-8c3b-7b16e1ddc5a3",
+            "@id": "#e82698d0-e0b8-4158-9e19-0009fa8445e9",
             "@type": "Organization",
             "name": "Helmholtz-Zentrum f\u00fcr Umweltforschung - UFZ"
         },
@@ -309,7 +309,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.23"
+            "engineVersion": ">=0.75.26"
         },
         {
             "@id": "QIIME2-Id-demultiplexed-data-paired-end.ga",
@@ -323,7 +323,7 @@
                     "@id": "#0009-0008-1496-1677"
                 },
                 {
-                    "@id": "#f0b6baea-4953-4d2a-b6b0-ac2a5e14f6c4"
+                    "@id": "#45eb9dff-728c-46f6-b378-01d41f4031d5"
                 }
             ],
             "name": "qiime2-I-import/Id-import-demultiplexed-pe",
@@ -331,10 +331,10 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/qiime2-I-import",
-            "version": "0.2"
+            "version": "0.3"
         },
         {
-            "@id": "#f0b6baea-4953-4d2a-b6b0-ac2a5e14f6c4",
+            "@id": "#45eb9dff-728c-46f6-b378-01d41f4031d5",
             "@type": "Organization",
             "name": "Helmholtz-Zentrum f\u00fcr Umweltforschung - UFZ"
         },
@@ -373,7 +373,7 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/terms/test#PlanemoEngine"
             },
-            "engineVersion": ">=0.75.23"
+            "engineVersion": ">=0.75.26"
         }
     ]
 }
